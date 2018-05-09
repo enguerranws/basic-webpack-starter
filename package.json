@@ -1,0 +1,25 @@
+{
+  "name": "starter-webpack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {},
+  "private": true,
+  "scripts": {
+    "build": "webpack --mode=production --env.NODE_ENV=production",
+    "watch": "webpack --watch --mode=development --env.NODE_ENV=developement"
+  },
+  "devDependencies": {
+    "babel-loader": "^7.1.4",
+    "css-loader": "^0.28.11",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "path": "^0.12.7",
+    "postcss-cssnext": "^3.1.0",
+    "postcss-csso": "^3.0.0",
+    "postcss-loader": "^2.1.5",
+    "style-loader": "^0.21.0",
+    "uglifyjs-webpack-plugin": "^1.2.5",
+    "webpack": "^4.8.1",
+    "webpack-cli": "^2.1.3"
+  }
+}
